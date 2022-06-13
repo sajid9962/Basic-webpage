@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)), url('https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');
+    background-repeat: no repeat;
+    background-size: cover;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    padding: 35px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 22px;
+    color: white;
+}
+nav li a:hover{
+    color: #2471A3
+}
+.logo{
+    cursor: pointer;
+    font-weight: 900;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 5px;
+}
+.info{
+    margin-top: 8%;
+    margin-left: 5%;
+    text-align: center;
+    /* font-size: 2.3rem; */
+
+}
+.info h3{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    color: green;
+}
+.info h1{
+    text-transform: uppercase;
+    margin: 25px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 60px;
+
+}
+.info p{
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 40px;
+
+}
+.info a{
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 6px;
+    transition: all 1s ease;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin: 0px 20px;
+}
+
+.btn1{
+    background: #171717;
+    color: white;
+}
+.btn2{
+    background:#2471A3  ;
+    color: white;
+
+}
+
+  
+.btn1:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+.btn2:hover {
+    background: #fff;
+    color: #2471A3;
+}
+
+.content-change::after{
+    content: "";
+    animation: textChange 10s infinite;
+    color: #2471A3
+}
+
+@keyframes textChange {
+    0% {
+        content: "Srimagal";
+      }
+      20% {
+        content: "Rangamati";
+      }
+      35% {
+        content: "Paharpur";
+      }
+      60% {
+        content: "Lalbag Fort";
+      }
+      80% {
+        content: "Ahsan Manzil";
+      }
+      100% {
+        content: "Jaflong";
+      }
+}
+
+.red{
+    color: red;
+}
